@@ -4,7 +4,7 @@ body {
     font-family: "montserrat", sans-serif;
     min-height: 100vh;
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-  }
+}
 
 
 /* Start Preloader */
@@ -70,7 +70,10 @@ body {
   transform: translateY(-50%);
   text-align: center;
   align-items: center;
-  color: #ffffff
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+
 }
 
 .container1 h1 {
@@ -84,6 +87,7 @@ body {
   -webkit-background-clip: text;
   text-align: center;
   align-items: center;
+  
 }
 
 .container1 a {
@@ -103,14 +107,16 @@ body {
 }
 
 
+
 .container2 {
   width: 100%;
-  position: relative;
-  top: 92px;
+  position: absolute;
+  top: 72%;
   transform: translateY(-50%);
   text-align: center;
   align-items: center;
-  color: #ffffff
+  color: #010101;
+
 }
 
 .container2 h1 {
@@ -142,3 +148,86 @@ body {
   background: #3cba92;
 }
 
+@media (min-width: 768px) {
+  .container2 {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    align-items: center;
+    color: #010101;
+  
+  }
+  
+  .container2 h1 {
+    font-size: 80px;
+    width: 100%;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 5px;
+    background: url(/img/bg.jpg) center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .container2 a {
+    text-decoration: none;
+    background: #3cba92;
+    color: #fff;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+  }
+  
+  .container2 a:hover {
+    background: #3cba92;
+  }
+}
+
+@media (min-width: 375px) {
+  .container2 {
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    text-align: center;
+    align-items: center;
+    color: #010101;
+  
+  }
+  
+  .container2 h1 {
+    font-size: 40px;
+    width: 100%;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 5px;
+    background: url(/img/bg.jpg) center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .container2 a {
+    text-decoration: none;
+    background: #3cba92;
+    color: #fff;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+  }
+  
+  .container2 a:hover {
+    background: #3cba92;
+  }
+}
