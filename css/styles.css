@@ -3,41 +3,142 @@ body {
     padding: 0;
     font-family: "montserrat", sans-serif;
     min-height: 100vh;
-    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  }
+
+
+/* Start Preloader */
+.hidden {
+    overflow: hidden;
 }
 
-.container {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: #ffffff
+.centrado {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container h1 {
-    font-size: 85px;
-    width: 100%;
-    margin: 0;
-    font-weight: 900;
-    letter-spacing: 5px;
-    background: url(/img/bg.jpg) center;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-
-.container a {
-    text-decoration: none;
-    background: #3cba92;
-    color: #fff;
-    padding: 12px 24px;
+.lds-hourglass {
     display: inline-block;
-    border-radius: 25px;
-    font-size: 14px;
-    text-transform: uppercase;
-    transition: 0.4s;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-hourglass:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 32px solid #008049;
+    border-color: #008049 transparent #008049 transparent;
+    animation: lds-hourglass 1.2s infinite;
+  }
+  @keyframes lds-hourglass {
+    0% {
+      transform: rotate(0);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+      transform: rotate(900deg);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+      transform: rotate(1800deg);
+    }
+  }
+/* End Preloader */
+
+#carousel1 .item img{
+  display: block;
+  width: 100%;
 }
 
-.container a:hover {
-    background: #3cba92;
+
+
+.container1 {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  align-items: center;
+  color: #ffffff
 }
+
+.container1 h1 {
+  font-size: 85px;
+  width: 100%;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 5px;
+  background: url(/img/bg.jpg) center;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+  align-items: center;
+}
+
+.container1 a {
+  text-decoration: none;
+  background: #3cba92;
+  color: #fff;
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+.container1 a:hover {
+  background: #3cba92;
+}
+
+
+.container2 {
+  width: 100%;
+  position: relative;
+  top: 92px;
+  transform: translateY(-50%);
+  text-align: center;
+  align-items: center;
+  color: #ffffff
+}
+
+.container2 h1 {
+  font-size: 85px;
+  width: 100%;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 5px;
+  background: url(/img/bg.jpg) center;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+  align-items: center;
+}
+
+.container2 a {
+  text-decoration: none;
+  background: #3cba92;
+  color: #fff;
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+.container2 a:hover {
+  background: #3cba92;
+}
+
