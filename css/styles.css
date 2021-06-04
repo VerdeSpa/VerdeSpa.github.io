@@ -231,3 +231,47 @@ body {
     background: #3cba92;
   }
 }
+
+
+
+@media (min-width: 320px) {
+  .container2 {
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    text-align: center;
+    align-items: center;
+    color: #010101;
+  
+  }
+  
+  .container2 h1 {
+    font-size: 32px;
+    width: 100%;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 5px;
+    background: url(/img/bg.jpg) center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .container2 a {
+    text-decoration: none;
+    background: #3cba92;
+    color: #fff;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+  }
+  
+  .container2 a:hover {
+    background: #3cba92;
+  }
+}
