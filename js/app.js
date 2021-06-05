@@ -11,8 +11,8 @@ $(document).ready(function () {
         loop: true,
         margin: 5,
         autoHeight: false,
-        autoplay: true,
-        autoplayTimeout: 1000,
+        autoplay: false,
+        autoplayTimeout: 5000,
         autoplayHoverPause: true,
         responsiveClass: true,
         responsive: {
