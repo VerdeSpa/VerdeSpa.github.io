@@ -5876,10 +5876,6 @@ html.rd-navbar-fixed-linked .page {
 	touch-action: pan-x;
 }
 
-/* Coverflow */
-.swiper-container-coverflow .swiper-wrapper {
-	/* Windows 8 IE 10 fix */
-}
 
 .swiper-container-fade.swiper-container-free-mode .swiper-slide {
 	transition-timing-function: ease-out;
@@ -7216,17 +7212,6 @@ html:not(.ie-11):not(.ie-10) .countdown-circle {
 	/* margin-top: 120px; */
 }
 
-@media (max-width: 1199.98px) {
-	.owl-carousel {
-		/* margin-top: 50px; */
-	}
-}
-
-@media (max-width: 767.98px) {
-	.owl-carousel {
-		/* margin-top: 10px; */
-	}
-}
 
 .owl-carousel .owl-stage {
 	position: relative;
@@ -10340,7 +10325,19 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 
+.appWhatssapp{
+	position: fixed;
+	right: 26px;
+	bottom: 100px;
+	width: 50px;
+	z-index: 1000;
+	font-size: 3rem;
+	color: #00bb2d;
+}
 
+.appWhatssapp:hover  {
+	color: #008049;
+}
 
 /*Aquí debajo va el FOOTER*/
 
