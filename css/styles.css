@@ -612,6 +612,28 @@ a {
 	height: 75vh;
 }
 
+/* BANNER contacto BG IMAGE */
+.bg-banner-contacto{
+	background-image: url("../img/banner-contacto.png");
+	background-position: center center;
+	background-size: cover;
+	height: 70vh;
+}
+/* BANNER Servicio único BG IMAGE */
+.bg-banner-servicioU{
+	background-image: url("../img/banner-servicioU.jpg");
+	background-position: center center;
+	background-size: cover;
+	height: 65vh;
+}
+/* BANNER tarjeta regalo  BG IMAGE */
+.bg-banner-tarjetaR{
+	background-image: url("../img/banner-tarjetaR.jpg");
+	background-position: center center;
+	background-size: cover;
+	height: 60vh;
+}
+
 /* Servicios */
 .main-servicio {
 	margin-top: 60px;
