@@ -594,6 +594,9 @@ a {
 	}
 }
 
+.icon-gif{
+	font-size: 20px;
+}
 
 /* BANNER NOSOTROS BG IMAGE */
 .bg-banner {
@@ -767,6 +770,75 @@ a {
 .container .card-servicios:hover {
 	transform: translateY(-15px);
 	box-shadow: 0 10px 12px #008049a8;
+}
+
+/* SERVICIO ÚNICO */
+
+.container-servicios-U{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-services {
+    position: relative;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.container-services .card-services{
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: #fff;  
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.container-services .card-services:hover{
+    height: 420px;
+
+}
+
+.container-services .card-services .imgVs{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top:  -60px;
+    z-index: 1;
+    box-shadow: 0 5px 202px rgba(0,0,0,0.2);
+
+}
+
+.container-services .card-services .imgVs img{
+    max-height: 100%;
+    border-radius: 4px;
+
+}
+
+.container-services .card-services .content-services{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container-services .card-services:hover .content-services {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
 }
 
 

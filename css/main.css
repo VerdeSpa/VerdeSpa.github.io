@@ -1033,7 +1033,7 @@ p.rights a {
 }
 
 p.rights a:hover {
-	color: #0C1451;
+	color: #008049;
 }
 
 [style*='z-index: 1000;'] {
@@ -1175,7 +1175,7 @@ mark,
 .mark {
 	padding: 3px 5px;
 	color: #ffffff;
-	background: #0C1451;
+	background: #008049;
 }
 
 .fz-18 {
@@ -1204,7 +1204,7 @@ code {
 p [data-toggle='tooltip'] {
 	padding-left: .25em;
 	padding-right: .25em;
-	color: #0C1451;
+	color: #008049;
 }
 
 p [style*='max-width'] {
@@ -1212,19 +1212,19 @@ p [style*='max-width'] {
 }
 
 ::selection {
-	background: #0C1451;
+	background: #008049;
 	color: #ffffff;
 }
 
 ::-moz-selection {
-	background: #0C1451;
+	background: #008049;
 	color: #ffffff;
 }
 
 .phone-link {
 	font-size: 40px;
 	font-weight: 700;
-	color: #0C1451;
+	color: #008049;
 }
 
 .phone-link:hover {
@@ -1448,7 +1448,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .privacy-link, .privacy-link:focus, .privacy-link:active {
-	color: #0C1451;
+	color: #008049;
 }
 
 .privacy-link:hover {
@@ -1607,7 +1607,7 @@ a[href*='tel'], a[href*='mailto'] {
 	display: inline-block;
 	width: 80px;
 	height: 2px;
-	background: #0C1451;
+	background: #008049;
 }
 
 * + .box-counter-title {
@@ -1747,7 +1747,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 @media (min-width: 992px) {
 	.desktop .box-info-modern-link:hover {
-		color: #0C1451;
+		color: #008049;
 	}
 }
 
@@ -1834,7 +1834,7 @@ a[href*='tel'], a[href*='mailto'] {
 	box-shadow: 0px 14px 20px rgba(11, 20, 85, 0.1);
 	border-radius: 8px;
 	min-height: 500px;
-	background: #008049;
+	background: #008049d0;
 	font-weight: 500;
 	color: #ffffff;
 	padding: 50px 42px;
@@ -2223,7 +2223,7 @@ html .list-inline-md > * {
 
 .list-marked {
 	text-align: left;
-	color: #0C1451;
+	color: #008049;
 	font-weight: 500;
 	font-size: 18px;
 }
@@ -2398,7 +2398,7 @@ img {
 
 .table-custom.table-custom-primary thead th {
 	color: #ffffff;
-	background: #0C1451;
+	background: #008049;
 	border: 0;
 }
 
@@ -2565,7 +2565,7 @@ hr {
 }
 
 .button-secondary-dark:hover, .button-secondary-dark:active, .button-secondary-dark.active {
-	color: #0C1451;
+	color: #008049;
 	background-color: #ffffff;
 	border-color: #ffffff;
 }
@@ -2575,7 +2575,7 @@ hr {
 }
 
 .button-white, .button-white:focus {
-	color: #0C1451;
+	color: #008049;
 	background-color: #ffffff;
 	border-color: #ffffff;
 }
@@ -2591,7 +2591,7 @@ hr {
 }
 
 .button-default-outline, .button-default-outline:focus {
-	color: #0C1451;
+	color: #008049;
 	background-color: transparent;
 	border-color: #2c343b;
 }
@@ -2622,7 +2622,7 @@ hr {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #0C1451;
+	background: #008049;
 	z-index: -1;
 	opacity: 0;
 	transform: scale3d(0.7, 1, 1);
@@ -2654,8 +2654,8 @@ hr {
 }
 
 .button-md {
-	padding: 20px 45px;
-	font-size: 20px;
+	padding: 16px 12px;
+	font-size: 18px;
 	line-height: 120%;
 }
 
@@ -2761,7 +2761,7 @@ hr {
 	display: block;
 	width: 37px;
 	height: 27px;
-	fill: #0C1451;
+	fill: #008049;
 	flex-shrink: 0;
 }
 
@@ -2865,7 +2865,7 @@ hr {
 }
 
 .breadcrumbs-custom-path a, .breadcrumbs-custom-path a:active, .breadcrumbs-custom-path a:focus {
-	color: #0C1451;
+	color: #008049;
 }
 
 .breadcrumbs-custom-path li {
@@ -2885,7 +2885,7 @@ hr {
 	display: inline-block;
 	font-size: inherit;
 	font-style: normal;
-	color: #0C1451;
+	color: #008049;
 	transform: translate3d(0, -50%, 0);
 }
 
@@ -3288,8 +3288,8 @@ html.tablet .ui-to-top {
 	.tabs-line .nav-link:hover,
 	.tabs-line .nav-link.active {
 		color: #ffffff;
-		background: #0C1451;
-		border-color: #0C1451;
+		background: #008049;
+		border-color: #008049;
 	}
 }
 
@@ -3326,8 +3326,8 @@ html.tablet .ui-to-top {
 .tabs-corporate .nav-link:hover,
 .tabs-corporate .nav-link.active {
 	color: #ffffff;
-	background: #0C1451;
-	border-color: #0C1451;
+	background: #008049;
+	border-color: #008049;
 }
 
 .tabs-corporate .tab-content {
@@ -3371,12 +3371,12 @@ html.tablet .ui-to-top {
 		transform: scale3d(0.7, 1, 1);
 		transition: transform 0.4s, opacity 0.4s;
 		transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-		background: #0C1451;
+		background: #008049;
 	}
 	.tabs-horizontal.tabs-corporate .nav-link.active,
 	.tabs-horizontal.tabs-corporate .nav-link:hover {
 		color: #ffffff;
-		border-color: #0C1451;
+		border-color: #008049;
 		background-color: transparent;
 	}
 	.tabs-horizontal.tabs-corporate .nav-link.active::before,
@@ -3408,7 +3408,7 @@ html.tablet .ui-to-top {
 		left: 0;
 		height: 4px;
 		width: 0;
-		background: #0C1451;
+		background: #008049;
 		transition: .22s ease;
 	}
 	.tabs-horizontal.tabs-line .nav-link.active,
@@ -3556,7 +3556,7 @@ html.tablet .ui-to-top {
 	font-size: 22px;
 	line-height: 1.25;
 	letter-spacing: 0;
-	color: #0C1451;
+	color: #008049;
 	transition: 1.3s all ease;
 	border-radius: 6px 6px 0 0;
 }
@@ -3592,7 +3592,7 @@ html.tablet .ui-to-top {
 	right: -1px;
 	z-index: 2;
 	width: 70px;
-	background: #0C1451;
+	background: #008049;
 	border-radius: 0 6px 0 0;
 	transition: .33s all ease;
 }
@@ -3680,7 +3680,7 @@ html.tablet .ui-to-top {
 .progress-linear-bar {
 	width: 0;
 	height: inherit;
-	background: #0C1451;
+	background: #008049;
 	transition: 1s all ease-in-out;
 }
 
@@ -3726,7 +3726,7 @@ html.tablet .ui-to-top {
 
 .progress-circle-fg {
 	fill: transparent;
-	stroke: #0C1451;
+	stroke: #008049;
 	stroke-width: 10px;
 }
 
@@ -3815,7 +3815,7 @@ html:not(.ie-11):not(.ie-10) .countdown-circle {
 }
 
 .countdown-circle-fg {
-	stroke: #0C1451;
+	stroke: #008049;
 	stroke-width: 10px;
 }
 
@@ -3824,14 +3824,14 @@ html:not(.ie-11):not(.ie-10) .countdown-circle {
 	font-weight: 400;
 	line-height: 1;
 	letter-spacing: 0;
-	color: #0C1451;
+	color: #008049;
 }
 
 .countdown-title {
 	font-size: 13px;
 	line-height: 1.2;
 	text-transform: uppercase;
-	color: #0C1451;
+	color: #008049;
 }
 
 * + .countdown {
@@ -4238,7 +4238,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
-	border-color: #0C1451;
+	border-color: #008049;
 }
 
 .lg-outer .lg-thumb-item img {
@@ -4397,7 +4397,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-progress-bar .lg-progress {
-	background-color: #0C1451;
+	background-color: #008049;
 	height: 5px;
 	width: 0;
 }
